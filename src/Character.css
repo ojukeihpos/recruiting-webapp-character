@@ -1,0 +1,13 @@
+.character {
+    display: flex
+}
+
+.sidebar {
+    display: inline;
+    width: 30%;
+}
+
+.classes {
+    display: inline-table;
+    width: 100%;
+}

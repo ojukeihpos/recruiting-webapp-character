@@ -1,25 +1,12 @@
-import { useState } from 'react';
 import './App.css';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MainPage from './MainPage';
 
-
-function App() {
-  const [num, setNum] = useState(0);
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Coding Exercise</h1>
-      </header>
-      <section className="App-section">
-        <div>
-          Value:
-          {num}
-          <button>+</button>
-          <button>-</button>
-        </div>
-      </section>
-    </div>
-  );
+      <div className = "App">
+        <MainPage />
+      </div>
+  )
 }
-
-export default App;

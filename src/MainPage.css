@@ -1,0 +1,9 @@
+.characterLabel {
+    color: white;
+}
+.character {
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    background-color: white;
+}

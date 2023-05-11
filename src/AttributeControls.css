@@ -1,0 +1,25 @@
+#playerControls {
+    height: auto;
+}
+
+table {
+    height: 100%;
+}
+
+tr td {
+    vertical-align: middle;
+}
+
+tbody {
+    white-space: nowrap;
+}
+
+.attribute {
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.headers>td {
+    background-color: #747474;
+}
